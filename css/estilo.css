@@ -23,6 +23,11 @@ h2{
     font-size: 3.5em;
 }
 
+h3{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
 .titulos{
     text-align: center; 
     color:rgb(255, 255, 255); 
