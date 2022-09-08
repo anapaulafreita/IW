@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: round;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header, footer{
+    background-color: rgba(169,169,169, 0.5);
+    padding: 2%;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3.5em;
+}
+
+.titulos{
+    text-align: center; 
+    color:rgb(255, 255, 255); 
+    font-weigth: bolder;
+    line-height: 2;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul li, ol li{
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 0.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+figure{
+    text-align: center;
+}
+
+.imgtexto{
+    border: 5px dashed #FBFCFC;
+    width: 30%;
+}
+
+.imglogo{
+    width: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    color: #FBFCFC;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td,th{
+    border: 5px dashed #FBFCFC;
+    padding: 3%;
+}
+
+tr:nth-child(even){
+    background-color: #87CEEB;
+}
