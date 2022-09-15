@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-image: url(../img/fundo2.jpg);
+    background-image: url(../img/fundo3.jpg);
     background-repeat: round;
     font-family: 'Abril Fatface', cursive;
 }
@@ -25,7 +29,7 @@ h2{
 
 h3{
     font-size: 3em;
-    color: rgb(182, 211, 163);
+    color: rgb(208, 128, 240);
 }
 
 .titulos{
@@ -36,7 +40,7 @@ h3{
 }
 
 p{
-    color: rgb(175, 170, 170);
+    color: rgb(196, 188, 188);
     font-weight: bolder;
     font-size: 1.5em;
     text-align: justify;
