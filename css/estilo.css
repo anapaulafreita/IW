@@ -4,7 +4,7 @@
     }
 
     body{
-        background-image: url(../img/fundo5.jpg);
+        background-image: url(../img/fundo4.jpg);
         background-repeat: round;
         font-family: "playfair";
     }
@@ -16,29 +16,7 @@
         margin-left: auto;
         position: relative;
     }
-    @media screen and (max-width: 599px) {
-        .container{
-            margin-top: 65%;
-
-        }
-    
-    }
-
-    @media screen and (min-width: 600px) {
-        .container{
-            margin-top: 40%;
-
-        }
-    
-    }
-
-    @media only screen and (min-width: 768px) {
-        .container{
-            margin-top: 30%;
-
-        }
-    
-    }
+   
 
     header, footer{
         background-color: rgba(185, 175, 175);
@@ -50,6 +28,10 @@
         font-size: 1.5em;
         line-height: 1.5;
 
+    }
+
+    .menu-opcoes{
+        text-align: center;
     }
 
     .fixo{
@@ -71,6 +53,43 @@
       
     }
 
+    @media screen and (max-width: 599px) {
+        .container{
+            margin-top: 100%;
+
+        }
+    
+    }
+
+    @media screen and (min-width: 600px) {
+        .container{
+            margin-top: 80%;
+
+        }
+    
+    }
+
+    @media screen and (min-width: 768px) {
+        .container{
+            margin-top: 10%; }
+
+        header{
+            background-color: rgba(185, 175, 175);
+            flex-direction: row;
+            font-size: 1em;
+            position: relative;}
+
+        .menu-opcoes{
+            position: absolute;
+            right: 5%;
+            top: 30%;}
+
+        .menu-opcoes ul li{
+            display: inline;
+            margin-left: 10px;
+        }
+    }
+
     h1{
         font-size: 4em;
     }
@@ -81,18 +100,18 @@
 
     h3{
         font-size: 3em;
-        color: rgb(39, 91, 133);
+        color: rgb(197, 138, 153);
     }
 
     .titulos{
         text-align: center; 
-        color:rgb(152, 176, 226); 
+        color: rgb(192, 160, 167);
         font-weigth: bolder;
         line-height: 2;
     }
 
     p{
-        color: rgb(70, 62, 62);
+        color: rgb(233, 223, 223);
         font-weight: bolder;
         font-size: 1.5em;
         text-align: justify;
@@ -117,7 +136,10 @@
         border: 5px dashed #FBFCFC;
         width: 30%;
     }
-    
+
+    .imglogo{
+        width: 60%;
+    }
 
 
     table{
