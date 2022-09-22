@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../img/fundo5.jpg);
+    background-repeat: round;
+    font-family: "playfair";
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header, footer{
+    background-color: rgba(185, 175, 175, 0.63);
+    padding: 2%;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3.5em;
+}
+
+h3{
+    font-size: 3em;
+    color: rgb(39, 91, 133);
+}
+
+.titulos{
+    text-align: center; 
+    color:rgb(152, 176, 226); 
+    font-weigth: bolder;
+    line-height: 2;
+}
+
+p{
+    color: rgb(70, 62, 62);
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul li, ol li{
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 0.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+figure{
+    text-align: center;
+}
+
+.imgtexto{
+    border: 5px dashed #FBFCFC;
+    width: 30%;
+}
+
+.imglogo{
+    width: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    color: #FBFCFC;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td,th{
+    border: 5px dashed #FBFCFC;
+    padding: 3%;
+}
+
+tr:nth-child(even){
+    background-color: #87CEEB;
+}
